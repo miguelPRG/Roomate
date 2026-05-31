@@ -12,7 +12,6 @@ services:
   frontend:
     build:
       context: ./frontend
-      dockerfile: Dockerfile
     container_name: app-frontend
     ports:
       - "127.0.0.1:8080:8080"
