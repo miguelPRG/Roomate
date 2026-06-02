@@ -71,6 +71,12 @@ flowchart LR
 
 ![Database Entity Diagram](diagrama.jpeg)
 
+### Screenshot
+
+Below is a screenshot of the rooms list UI used in the project:
+
+![Room list screenshot](screenshot.png)
+
 The frontend is compiled and served by Nginx. In production, Nginx routes requests from `/api` to the backend, which simplifies API consumption and maintains SPA functionality with client-side routing.
 
 ## Technical Highlights
